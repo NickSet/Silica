@@ -4,8 +4,7 @@ let package = Package(
     name: "Silica",
     targets: [
         Target(
-            name: "SilicaTests",
-            dependencies: [.Target(name: "Silica")]),
+            name: "SilicaTests"),
         Target(
             name: "Silica"),
     ],
