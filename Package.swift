@@ -4,11 +4,11 @@ let package = Package(
     name: "Silica",
     targets: [
 
-    Target(
-        name: "SilicaTests",
-        dependencies: [.Target(name: "Silica")]),
-    Target(
-        name: "Silica")
+        Target(
+            name: "SilicaTests",
+            dependencies: [.Target(name: "Silica")]),
+        Target(
+            name: "Silica")
 
     ],
     dependencies: [
